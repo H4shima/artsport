@@ -1,0 +1,2161 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>ARTSPORT</title>
+  <link rel="icon" href="icons/bike_logo.svg">
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+  <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
+  <link rel="stylesheet" href="css/lightbox.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div id="toTop">
+    <img src="images/icons/icon-up.png" alt="top-arrow">
+  </div>
+  <section class="promo">
+    <div class="container">
+      <header class="header">
+        <a href="index.html" class="header__logo"> ARTSPORT </a>
+        <div class="header__official">
+          <a href="company.html">О компании</a>
+        </div>
+        <div class="header__official">
+          <a href="veliki.html">Каталог</a>
+        </div>
+        <div class="header__official">
+          <a href="sale.html">Акции</a>
+        </div>
+        <div class="header__official">
+          <a href="contacts.html">Контакты</a>
+        </div>
+        <div class="header__contacts">
+          <!-- <a href="tel:+74999228974" class="header__phone header__phone_none">+7 (499) 922-89-74</a> -->
+          <button data-modal="consultation" class="button">
+            заказать звонок
+          </button>
+        </div>
+      </header>
+    </div>
+  </section>
+  <nav>
+    <div class="navbar">
+      <div class="container nav-container">
+        <input class="checkbox" type="checkbox" />
+        <div class="hamburger-lines">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>
+        <div class="logo">
+          <a href="index.html">ARTSPORT</a>
+        </div>
+        <ul class="menu-items">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="company.html">О компании</a></li>
+          <li><a href="veliki.html">Каталог</a></li>
+          <li><a href="sale.html">Акции</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="catalog">
+      <div class="container">
+        <div class="catalog__wrapper">
+          <button class="button button_filter"><span>Фильтры</span></button>
+          <div id="filters" class="catalog__filters">
+            <h3>Виды велосипедов</h3>
+            <ul class="catalog__filters-menu">
+              <li class="first">
+                <input type="checkbox" id="mountain" name="check" value="mountain" class="category">
+                <label for="mountain">Горные</label>
+              </li>
+              <li>
+                <input type="checkbox" id="road" name="check" value="road" class="category">
+                <label for="road">Дорожные</label>
+              </li>
+              <li>
+                <input type="checkbox" id="teenagers" name="check" value="teenagers" class="category">
+                <label for="teenagers">Подростковые</label>
+              </li>
+              <li>
+                <input type="checkbox" id="folding" name="check" value="folding" class="category">
+                <label for="folding">Складные</label>
+              </li>
+              <li>
+                <input type="checkbox" id="children" name="check" value="children" class="category">
+                <label for="children">Детские</label>
+              </li>
+              <li>
+                <input type="checkbox" id="double" name="check" value="double" class="category">
+                <label for="double">Двухподвесные</label>
+              </li>
+              <h4>Бренд</h4>
+              <li>
+                <input type="checkbox" id="stels" name="check" value="stels" class="category">
+                <label for="stels">Stels</label>
+              </li>
+              <li>
+                <input type="checkbox" id="aqua" name="check" value="aqua" class="category">
+                <label for="aqua">Black Aqua</label>
+              </li>
+              <li>
+                <input type="checkbox" id="maxxpro" name="check" value="maxxpro" class="category">
+                <label for="maxxpro">MaxxPro</label>
+              </li>
+              <h4>Пол</h4>
+              <li>
+                <input type="checkbox" id="men" name="check" value="men" class="category">
+                <label for="men">Мужские</label>
+              </li>
+              <li>
+                <input type="checkbox" id="woman" name="check" value="woman" class="category">
+                <label for="woman">Женские</label>
+              </li>
+              <h4>Диаметр колеса</h4>
+              <li>
+                <input type="checkbox" id="29" name="check" value="29" class="category">
+                <label for="29">29</label>
+              </li>
+              <li>
+                <input type="checkbox" id="28" name="check" value="28" class="category">
+                <label for="28">28</label>
+              </li>
+              <li>
+                <input type="checkbox" id="27" name="check" value="27" class="category">
+                <label for="27">27.5</label>
+              </li>
+              <li>
+                <input type="checkbox" id="26" name="check" value="26" class="category">
+                <label for="26">26</label>
+              </li>
+              <li>
+                <input type="checkbox" id="24" name="check" value="24" class="category">
+                <label for="24">24</label>
+              </li>
+              <li>
+                <input type="checkbox" id="20" name="check" value="20" class="category">
+                <label for="20">20</label>
+              </li>
+              <li>
+                <input type="checkbox" id="18" name="check" value="18" class="category">
+                <label for="18">18</label>
+              </li>
+              <li>
+                <input type="checkbox" id="16" name="check" value="16" class="category">
+                <label for="16">16</label>
+              </li>
+              <li>
+                <input type="checkbox" id="14" name="check" value="14" class="category">
+                <label for="14">14</label>
+              </li>
+              <li>
+                <input type="checkbox" id="12" name="check" value="12" class="category">
+                <label for="12">12</label>
+              </li>
+              <li>
+                <a href="samokati.html">Самокаты</a>
+              </li>
+            </ul>
+            <input class="catalog__filters-search" type="text" id="search" placeholder="Поиск...">
+          </div>
+
+          <div class="catalog__content">
+            <!--горные-->
+            <div class="catalog-item" data-filter="mountain men stels 24">
+              <a href="catalog/podrostki/adrenalin_md_24_v010.html">
+                <img src="images/shop_cards/STELS/gornie/AdrenalinMD24V010.jpg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Adrenalin MD 24
+              </div>
+              <div class="catalog-item__descr">Горный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">6 990 руб.</div> -->
+                  <div class="catalog-item__price">20 440 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="mountain men stels 27">
+              <a href="images/shop_cards/STELS/gornie/AdrenalinD27.5V010.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/gornie/AdrenalinD27.5V010.jpg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Adrenalin MD 27.5
+              </div>
+              <div class="catalog-item__descr">Горный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">26 570 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="mountain men stels 26">
+              <a href="images/shop_cards/STELS/gornie/Navigator500MD26V010.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/gornie/Navigator500MD26V010.jpg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Navigator 500 MD 26
+              </div>
+              <div class="catalog-item__descr">Горный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">4 750 руб.</div> -->
+                  <div class="catalog-item__price">17 270 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="mountain men stels 26">
+              <a href="images/shop_cards/STELS/gornie/Navigator-510MD26V010.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/gornie/Navigator-510MD26V010.jpg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Navigator 510 MD 26
+              </div>
+              <div class="catalog-item__descr">Горный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">6 990 руб.</div> -->
+                  <div class="catalog-item__price">18 300 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="mountain men stels 26">
+              <a href="images/shop_cards/STELS/gornie/Navigator-610MD26V040.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/gornie/Navigator-610MD26V040.jpg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Navigator 610 MD 26
+              </div>
+              <div class="catalog-item__descr">Горный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">4 750 руб.</div> -->
+                  <div class="catalog-item__price">19 930 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="mountain men stels 26">
+              <a href="images/shop_cards/STELS/gornie/Navigator640MD26.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/gornie/Navigator640MD26.jpg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Navigator 640 MD 26
+              </div>
+              <div class="catalog-item__descr">Горный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">21 460 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="mountain men stels 26">
+              <a href="images/shop_cards/STELS/gornie/Navigator645D26.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/gornie/Navigator645D26.jpg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Navigator 645 D 26
+              </div>
+              <div class="catalog-item__descr">Горный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">32 980 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="mountain men stels 27">
+              <a href="images/shop_cards/STELS/gornie/Navigator700D27.5.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/gornie/Navigator700D27.5.jpg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Navigator 700 D 27.5
+              </div>
+              <div class="catalog-item__descr">Горный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">23 500 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="mountain men stels 27">
+              <a href="images/shop_cards/STELS/gornie/Navigator700MD27.5.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/gornie/Navigator700MD27.5.jpg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Navigator 700 MD 27.5
+              </div>
+              <div class="catalog-item__descr">Горный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">17 990 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="mountain men stels 27">
+              <a href="images/shop_cards/STELS/gornie/Navigator710MD27.5.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/gornie/Navigator710MD27.5.jpg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Navigator 710 MD 27.5
+              </div>
+              <div class="catalog-item__descr">Горный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">19 320 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="mountain men stels 27">
+              <a href="images/shop_cards/STELS/gornie/Navigator720D27.5.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/gornie/Navigator720D27.5.jpg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Navigator 720 D 27.5
+              </div>
+              <div class="catalog-item__descr">Горный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">27 000 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="mountain men stels 27">
+              <a href="images/shop_cards/STELS/gornie/Navigator750D27.5.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/gornie/Navigator750D27.5.jpg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Navigator 750 D 27.5
+              </div>
+              <div class="catalog-item__descr">Горный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">37 060 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="mountain men stels 27">
+              <a href="images/shop_cards/STELS/gornie/Navigator750MD27.5.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/gornie/Navigator750MD27.5.jpg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Navigator 750 MD 27.5
+              </div>
+              <div class="catalog-item__descr">Горный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">30 660 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="mountain men stels 27">
+              <a href="images/shop_cards/STELS/gornie/Navigator760D27.5.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/gornie/Navigator760D27.5.jpg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Navigator 760 D 27.5
+              </div>
+              <div class="catalog-item__descr">Горный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">48 600 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="mountain men stels 27">
+              <a href="images/shop_cards/STELS/gornie/Navigator760MD27.5.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/gornie/Navigator760MD27.5.jpg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Navigator 760 MD 27.5
+              </div>
+              <div class="catalog-item__descr">Горный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">33 220 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="mountain men stels 29">
+              <a href="images/shop_cards/STELS/gornie/Navigator900D29.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/gornie/Navigator900D29.jpg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Navigator 900 D 29
+              </div>
+              <div class="catalog-item__descr">Горный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">20 950 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="mountain men stels 29">
+              <a href="images/shop_cards/STELS/gornie/Navigator900MD29.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/gornie/Navigator900MD29.jpg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Navigator 900 MD 29
+              </div>
+              <div class="catalog-item__descr">Горный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">18 400 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="mountain men stels 29">
+              <a href="images/shop_cards/STELS/gornie/Navigator910D29.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/gornie/Navigator910D29.jpg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Navigator 910 D 29
+              </div>
+              <div class="catalog-item__descr">Горный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">24 530 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="mountain men stels 29">
+              <a href="images/shop_cards/STELS/gornie/Navigator910MD29.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/gornie/Navigator910MD29.jpg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Navigator 910 MD 29
+              </div>
+              <div class="catalog-item__descr">Горный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">22 490 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="mountain men stels 29">
+              <a href="images/shop_cards/STELS/gornie/Navigator920MD29.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/gornie/Navigator920MD29.jpg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Navigator 920 MD 29
+              </div>
+              <div class="catalog-item__descr">Горный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">25 040 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="mountain men stels 29">
+              <a href="images/shop_cards/STELS/gornie/Navigator930D29.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/gornie/Navigator930D29.jpg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Navigator 930 D 29
+              </div>
+              <div class="catalog-item__descr">Горный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">30 560 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="mountain men stels 29">
+              <a href="images/shop_cards/STELS/gornie/Navigator930MD29.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/gornie/Navigator930MD29.jpg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Navigator 930 MD 29
+              </div>
+              <div class="catalog-item__descr">Горный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">28 620 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="mountain men stels 29">
+              <a href="images/shop_cards/STELS/gornie/Navigator950MD29.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/gornie/Navigator950MD29.jpg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Navigator 950 MD 29
+              </div>
+              <div class="catalog-item__descr">Горный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">30 560 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="mountain men stels 29">
+              <a href="images/shop_cards/STELS/gornie/Navigator970D29.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/gornie/Navigator970D29.jpg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Navigator 970 D 29
+              </div>
+              <div class="catalog-item__descr">Горный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">50 080 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <!--дорожные--> 
+            <div class="catalog-item" data-filter="road woman stels 26">
+              <a href="images/shop_cards/STELS/doroga/Navigator-200Lady26Z010.png" data-lightbox="images">
+                <img src="images/shop_cards/STELS/doroga/Navigator-200Lady26Z010.png" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Navigator 200 Lady 26
+              </div>
+              <div class="catalog-item__descr">Дорожный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">10 070 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="road stels men 26">
+              <a href="images/shop_cards/STELS/doroga/Navigator-24526Z010.png" data-lightbox="images">
+                <img src="images/shop_cards/STELS/doroga/Navigator-24526Z010.png" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Navigator 245 26
+              </div>
+              <div class="catalog-item__descr">Дорожный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">10 400 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="road stels men 26">
+              <a href="images/shop_cards/STELS/doroga/Navigator-250Gent26Z010.png" data-lightbox="images">
+                <img src="images/shop_cards/STELS/doroga/Navigator-250Gent26Z010.png" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Navigator 250 Gent 26
+              </div>
+              <div class="catalog-item__descr">Дорожный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">12 270 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="road woman stels 26">
+              <a href="images/shop_cards/STELS/doroga/Navigator-250Lady26Z010.png" data-lightbox="images">
+                <img src="images/shop_cards/STELS/doroga/Navigator-250Lady26Z010.png" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Navigator 250 Lady 26
+              </div>
+              <div class="catalog-item__descr">Дорожный велосипед</div>
+
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">12 270 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="road stels men 28">
+              <a href="images/shop_cards/STELS/doroga/Navigator-300Gent28Z010.png" data-lightbox="images">
+                <img src="images/shop_cards/STELS/doroga/Navigator-300Gent28Z010.png" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Navigator 300 Gent 28
+              </div>
+              <div class="catalog-item__descr">Дорожный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">10 730 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="road woman stels 28">
+              <a href="images/shop_cards/STELS/doroga/Navigator-300Lady28Z010.png" data-lightbox="images">
+                <img src="images/shop_cards/STELS/doroga/Navigator-300Lady28Z010.png" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Navigator 300 Lady 28
+              </div>
+              <div class="catalog-item__descr">Дорожный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">10 730 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="road stels men 28">
+              <a href="images/shop_cards/STELS/doroga/Navigator-32528Z010.png" data-lightbox="images">
+                <img src="images/shop_cards/STELS/doroga/Navigator-32528Z010.png" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Navigator 325 28
+              </div>
+              <div class="catalog-item__descr">Дорожный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">10 950 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="road stels men 28">
+              <a href="images/shop_cards/STELS/doroga/Navigator-34528Z010.png" data-lightbox="images">
+                <img src="images/shop_cards/STELS/doroga/Navigator-34528Z010.png" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Navigator 345 28
+              </div>
+              <div class="catalog-item__descr">Дорожный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">10 950 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="road stels men 28">
+              <a href="images/shop_cards/STELS/doroga/Navigator-350Gent28Z010.png" data-lightbox="images">
+                <img src="images/shop_cards/STELS/doroga/Navigator-350Gent28Z010.png" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Navigator 350 Gent 28
+              </div>
+              <div class="catalog-item__descr">Дорожный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">12 880 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="road woman stels 28">
+              <a href="images/shop_cards/STELS/doroga/Navigator-350Lady28Z010.png" data-lightbox="images">
+                <img src="images/shop_cards/STELS/doroga/Navigator-350Lady28Z010.png" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Navigator 350 Lady 28
+              </div>
+              <div class="catalog-item__descr">Дорожный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">12 880 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="road stels men 28">
+              <a href="images/shop_cards/STELS/doroga/ВояжGent28.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/doroga/ВояжGent28.jpg" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS Вояж Gent 28</div>
+              <div class="catalog-item__descr">Дорожный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">9 500 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="road stels men 28">
+              <a href="images/shop_cards/STELS/doroga/ДеснаВояжLady28.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/doroga/ДеснаВояжLady28.jpg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Десна Вояж Lady 28
+              </div>
+              <div class="catalog-item__descr">Дорожный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">9 500 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="road stels men 28">
+              <a href="images/shop_cards/STELS/doroga/Круиз28.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/doroga/Круиз28.jpg" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS Круиз 28</div>
+              <div class="catalog-item__descr">Дорожный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">9 800 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <!--женские-->
+            <div class="catalog-item" data-filter="woman stels mountain 26">
+              <a href="images/shop_cards/STELS/woman/Miss5000D26.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/woman/Miss5000D26.jpg" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS Miss 5000 D 26</div>
+              <div class="catalog-item__descr">Женский велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">19 420 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="woman stels mountain 26">
+              <a href="images/shop_cards/STELS/woman/Miss5000MD26.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/woman/Miss5000MD26.jpg" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Miss 5000 MD 26
+              </div>
+              <div class="catalog-item__descr">Женский велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">17 380 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="woman stels mountain 26">
+              <a href="images/shop_cards/STELS/woman/Miss5000V26.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/woman/Miss5000V26.jpg" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS Miss 5000 V 26</div>
+              <div class="catalog-item__descr">Женский велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">16 350 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="woman stels mountain 26">
+              <a href="images/shop_cards/STELS/woman/MISS5100MD26.jpeg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/woman/MISS5100MD26.jpeg" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Miss 5100 MD 26
+              </div>
+              <div class="catalog-item__descr">Женский велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">18 910 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="woman stels mountain 26">
+              <a href="images/shop_cards/STELS/woman/Miss6000MD26.jpeg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/woman/Miss6000MD26.jpeg" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Miss 6000 MD 26
+              </div>
+              <div class="catalog-item__descr">Женский велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">20 950 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="woman stels mountain 26">
+              <a href="images/shop_cards/STELS/woman/Miss6100D26.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/woman/Miss6100D26.jpg" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS Miss 6000 D 26</div>
+              <div class="catalog-item__descr">Женский велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">25 550 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="woman stels mountain 26">
+              <a href="images/shop_cards/STELS/woman/Miss6100MD26.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/woman/Miss6100MD26.jpg" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Miss 6100 MD 26
+              </div>
+              <div class="catalog-item__descr">Женский велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">23 510 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="woman stels mountain 27">
+              <a href="images/shop_cards/STELS/woman/Miss7100MD27.5.jpeg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/woman/Miss7100MD27.5.jpeg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Miss 7100 MD 27.5
+              </div>
+              <div class="catalog-item__descr">Женский велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">20 950 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="woman stels mountain 27">
+              <a href="images/shop_cards/STELS/woman/Miss7500MD27.5.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/woman/Miss7500MD27.5.jpg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Miss 7500 MD 27.5
+              </div>
+              <div class="catalog-item__descr">Женский велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">23 000 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="woman stels mountain 27">
+              <a href="images/shop_cards/STELS/woman/Miss7700MD27.5.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/woman/Miss7700MD27.5.jpg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Miss 7700 MD 27.5
+              </div>
+              <div class="catalog-item__descr">Женский велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">29 640 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <!--подростковые--> 
+            <div class="catalog-item" data-filter="teenagers men mountain 24">
+              <a href="images/shop_cards/STELS/podrostki/Navigator400MD24.jpeg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/podrostki/Navigator400MD24.jpeg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Navigator 400 MD 24
+              </div>
+              <div class="catalog-item__descr">Подростковый велосипед</div>
+
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">14 820 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="teenagers men mountain 24">
+              <a href="images/shop_cards/STELS/podrostki/Navigator400V24.jpeg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/podrostki/Navigator400V24.jpeg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Navigator 400 V 24
+              </div>
+              <div class="catalog-item__descr">Подростковый велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">14 110 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="teenagers men mountain 24">
+              <a href="images/shop_cards/STELS/podrostki/Navigator410MD24.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/podrostki/Navigator410MD24.jpg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Navigator 410 MD 24
+              </div>
+              <div class="catalog-item__descr">Подростковый велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">14 820 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="teenagers men mountain 24">
+              <a href="images/shop_cards/STELS/podrostki/Navigator420V24.jpeg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/podrostki/Navigator420V24.jpeg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Navigator 420 V 24
+              </div>
+              <div class="catalog-item__descr">Подростковый велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">16 350 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="teenagers men mountain 24">
+              <a href="images/shop_cards/STELS/podrostki/Navigator410V24.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/podrostki/Navigator410V24.jpg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Navigator 410 V 24
+              </div>
+              <div class="catalog-item__descr">Подростковый велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">14 110 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="teenagers men mountain 24">
+              <a href="images/shop_cards/STELS/podrostki/Navigator430MD24.jpeg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/podrostki/Navigator430MD24.jpeg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Navigator 430 MD 24
+              </div>
+              <div class="catalog-item__descr">Подростковый велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">20 950 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="teenagers men mountain 24">
+              <a href="images/shop_cards/STELS/podrostki/Navigator450MD24.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/podrostki/Navigator450MD24.jpg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Navigator 450 MD 24
+              </div>
+              <div class="catalog-item__descr">Подростковый велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">19 420 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="teenagers men road 20">
+              <a href="images/shop_cards/STELS/podrostki/Pilot200Gent20.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/podrostki/Pilot200Gent20.jpg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Pilot 200 Gent 20
+              </div>
+              <div class="catalog-item__descr">Подростковый велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">7 670 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="teenagers woman stels road 20">
+              <a href="images/shop_cards/STELS/podrostki/Pilot200Lady20.jpeg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/podrostki/Pilot200Lady20.jpeg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Pilot 200 Lady 20
+              </div>
+              <div class="catalog-item__descr">Подростковый велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">7 670 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="teenagers men road 20">
+              <a href="images/shop_cards/STELS/podrostki/Pilot21020.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/podrostki/Pilot21020.jpg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS Pilot 210 20</div>
+              <div class="catalog-item__descr">Подростковый велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">8 080 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="teenagers woman stels road 20">
+              <a href="images/shop_cards/STELS/podrostki/Pilot250Lady20.jpeg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/podrostki/Pilot250Lady20.jpeg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Pilot 250 Lady 20
+              </div>
+              <div class="catalog-item__descr">Подростковый велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">14 310 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="teenagers men mountain 26">
+              <a href="images/shop_cards/STELS/podrostki/Pilot26020.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/podrostki/Pilot26020.jpg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS Pilot 260 20</div>
+              <div class="catalog-item__descr">Подростковый велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">19 220 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <!--складные-->
+            <div class="catalog-item" data-filter="folding stels men 26">
+              <a href="images/shop_cards/STELS/skladnie/Pilot950.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/skladnie/Pilot950.jpg" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS Pilot 950</div>
+              <div class="catalog-item__descr">Складной велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">23 510 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="folding stels men 26">
+              <a href="images/shop_cards/STELS/skladnie/Pilot970.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/skladnie/Pilot970.jpg" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS Pilot 970</div>
+              <div class="catalog-item__descr">Складной велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">24 530 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="folding stels men 20">
+              <a href="images/shop_cards/STELS/skladnie/Pilot310.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/skladnie/Pilot310.jpg" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS Pilot 310</div>
+              <div class="catalog-item__descr">Складной велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">9 070 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="folding stels men 20">
+              <a href="images/shop_cards/STELS/skladnie/Pilot410.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/skladnie/Pilot410.jpg" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS Pilot 410</div>
+              <div class="catalog-item__descr">Складной велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">9 300 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="folding stels men 16">
+              <a href="images/shop_cards/STELS/skladnie/Pilot710.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/skladnie/Pilot710.jpg" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS Pilot 710</div>
+              <div class="catalog-item__descr">Складной велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">9 960 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="folding stels men 24">
+              <a href="images/shop_cards/STELS/skladnie/Pilot750.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/skladnie/Pilot750.jpg" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS Pilot 750</div>
+              <div class="catalog-item__descr">Складной велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">12 270 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="folding stels men 26">
+              <a href="images/shop_cards/STELS/skladnie/Pilot810.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/skladnie/Pilot810.jpg" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS Pilot 810</div>
+              <div class="catalog-item__descr">Складной велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">10 950 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="folding stels men 26">
+              <a href="images/shop_cards/STELS/skladnie/Pilot850.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/skladnie/Pilot850.jpg" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS Pilot 850</div>
+              <div class="catalog-item__descr">Складной велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">12 680 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="folding stels men 20">
+              <a href="images/shop_cards/STELS/skladnie/Десна2100.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/skladnie/Десна2100.jpg" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS Десна 2100</div>
+              <div class="catalog-item__descr">Складной велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">9 000 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="folding stels men 20">
+              <a href="images/shop_cards/STELS/skladnie/Десна2200.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/skladnie/Десна2200.jpg" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS Десна 2200</div>
+              <div class="catalog-item__descr">Складной велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">9 300 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="folding stels men 24">
+              <a href="images/shop_cards/STELS/skladnie/Десна2500.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/skladnie/Десна2500.jpg" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS Десна 2500</div>
+              <div class="catalog-item__descr">Складной велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">9 960 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <!--детские-->
+            <div class="catalog-item" data-filter="children stels woman 12">
+              <a href="images/shop_cards/STELS/deti/ECHO16V020.png" data-lightbox="images">
+                <img src="images/shop_cards/STELS/deti/ECHO16V020.png" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS ECHO 12</div>
+              <div class="catalog-item__descr">Детский велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">6 300 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="children stels woman 16">
+              <a href="images/shop_cards/STELS/deti/ECHO16V020.png" data-lightbox="images">
+                <img src="images/shop_cards/STELS/deti/ECHO16V020.png" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS ECHO 16</div>
+              <div class="catalog-item__descr">Детский велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">8 120 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="children stels men woman 18">
+              <a href="images/shop_cards/STELS/deti/Galaxy18V010.png" data-lightbox="images">
+                <img src="images/shop_cards/STELS/deti/Galaxy18V010.png" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS Galaxy 18 V010</div>
+              <div class="catalog-item__descr">Детский велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">8 680 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="children stels men woman 16">
+              <a href="images/shop_cards/STELS/deti/Galaxy16V010.png" data-lightbox="images">
+                <img src="images/shop_cards/STELS/deti/Galaxy16V010.png" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS Galaxy 16 Pro</div>
+              <div class="catalog-item__descr">Детский велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">9 520 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="children stels men woman 16">
+              <a href="images/shop_cards/STELS/deti/GalaxyPro16.png" data-lightbox="images">
+                <img src="images/shop_cards/STELS/deti/GalaxyPro16.png" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS Galaxy 16 Pro</div>
+              <div class="catalog-item__descr">Детский велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">10 080 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="children stels men woman 18">
+              <a href="images/shop_cards/STELS/deti/GalaxyPro18.png" data-lightbox="images">
+                <img src="images/shop_cards/STELS/deti/GalaxyPro18.png" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS Galaxy 18 Pro</div>
+              <div class="catalog-item__descr">Детский велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">10 080 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="children stels men woman 16">
+              <a href="images/shop_cards/STELS/deti/Flyte16Z011.png" data-lightbox="images">
+                <img src="images/shop_cards/STELS/deti/Flyte16Z011.png" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS Flyte 16</div>
+              <div class="catalog-item__descr">Детский велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">5 670 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="children stels woman 14">
+              <a href="images/shop_cards/STELS/deti/FlyteLady14Z011.png" data-lightbox="images">
+                <img src="images/shop_cards/STELS/deti/FlyteLady14Z011.png" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS Flyte Lady 14</div>
+              <div class="catalog-item__descr">Детский велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">5 530 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="children stels woman 16">
+              <a href="images/shop_cards/STELS/deti/FlyteLady16Z011.png" data-lightbox="images">
+                <img src="images/shop_cards/STELS/deti/FlyteLady16Z011.png" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS Flyte Lady 16</div>
+              <div class="catalog-item__descr">Детский велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">5 740 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="children stels woman 18">
+              <a href="images/shop_cards/STELS/deti/FlyteLady18Z011.png" data-lightbox="images">
+                <img src="images/shop_cards/STELS/deti/FlyteLady18Z011.png" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS Flyte Lady 18</div>
+              <div class="catalog-item__descr">Детский велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">6 230 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="children stels men woman 14">
+              <a href="images/shop_cards/STELS/deti/Jet14Z010.png" data-lightbox="images">
+                <img src="images/shop_cards/STELS/deti/Jet14Z010.png" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS Jet 14</div>
+              <div class="catalog-item__descr">Детский велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">5 670 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="children stels men woman 16">
+              <a href="images/shop_cards/STELS/deti/Jet16Z010.png" data-lightbox="images">
+                <img src="images/shop_cards/STELS/deti/Jet16Z010.png" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS Jet 16</div>
+              <div class="catalog-item__descr">Детский велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">5 880 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="children stels men woman 18">
+              <a href="images/shop_cards/STELS/deti/Jet18Z010.png" data-lightbox="images">
+                <img src="images/shop_cards/STELS/deti/Jet18Z010.png" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS Jet 18</div>
+              <div class="catalog-item__descr">Детский велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">6 370 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="children stels woman 12">
+              <a href="images/shop_cards/STELS/deti/JOLLY12V010.png" data-lightbox="images">
+                <img src="images/shop_cards/STELS/deti/JOLLY12V010.png" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS JOLLY 12</div>
+              <div class="catalog-item__descr">Детский велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">5 460 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="children stels woman 14">
+              <a href="images/shop_cards/STELS/deti/JOLLY14V010.png" data-lightbox="images">
+                <img src="images/shop_cards/STELS/deti/JOLLY14V010.png" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS JOLLY 14</div>
+              <div class="catalog-item__descr">Детский велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">5 670 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="children stels woman 16">
+              <a href="images/shop_cards/STELS/deti/JOLLY16V010.png" data-lightbox="images">
+                <img src="images/shop_cards/STELS/deti/JOLLY16V010.png" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS JOLLY 16</div>
+              <div class="catalog-item__descr">Детский велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">5 880 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="children stels woman 18">
+              <a href="images/shop_cards/STELS/deti/JOLLY18V010.png" data-lightbox="images">
+                <img src="images/shop_cards/STELS/deti/JOLLY18V010.png" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS JOLLY 18</div>
+              <div class="catalog-item__descr">Детский велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">6 370 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="children stels men woman 14">
+              <a href="images/shop_cards/STELS/deti/Talisman14Z010.png" data-lightbox="images">
+                <img src="images/shop_cards/STELS/deti/Talisman14Z010.png" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS Talisman 14</div>
+              <div class="catalog-item__descr">Детский велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">5 670 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="children stels men woman 16">
+              <a href="images/shop_cards/STELS/deti/Talisman16Z010.png" data-lightbox="images">
+                <img src="images/shop_cards/STELS/deti/Talisman16Z010.png" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS Talisman 16</div>
+              <div class="catalog-item__descr">Детский велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">5 810 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="children stels men woman 18">
+              <a href="images/shop_cards/STELS/deti/Talisman18Z010.png" data-lightbox="images">
+                <img src="images/shop_cards/STELS/deti/Talisman18Z010.png" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS Talisman 18</div>
+              <div class="catalog-item__descr">Детский велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">6 300 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="children stels woman 16">
+              <a href="images/shop_cards/STELS/deti/TalismanLady16Z010.png" data-lightbox="images">
+                <img src="images/shop_cards/STELS/deti/TalismanLady16Z010.png" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Talisman Lady 16
+              </div>
+              <div class="catalog-item__descr">Детский велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">5 810 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="children stels woman 18">
+              <a href="images/shop_cards/STELS/deti/TalismanLady18Z010.png" data-lightbox="images">
+                <img src="images/shop_cards/STELS/deti/TalismanLady18Z010.png" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                STELS Talisman Lady 18
+              </div>
+              <div class="catalog-item__descr">Детский велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">6 300 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="children stels woman 18">
+              <a href="images/shop_cards/STELS/deti/Wind18Z020.png" data-lightbox="images">
+                <img src="images/shop_cards/STELS/deti/Wind18Z020.png" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS Wind 18</div>
+              <div class="catalog-item__descr">Детский велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">6 190 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <!--двухподвесные-->
+            <div class="catalog-item" data-filter="double men stels 26">
+              <a href="images/shop_cards/STELS/2podves/FocusMD26.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/2podves/FocusMD26.jpg" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS Focus MD 26</div>
+              <div class="catalog-item__descr">Двухподвесной велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">19 930 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="double men stels 27">
+              <a href="images/shop_cards/STELS/2podves/FocusMD27.5.jpeg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/2podves/FocusMD27.5.jpeg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS Focus MD 27.5</div>
+              <div class="catalog-item__descr">Двухподвесной велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">20 950 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="double teenagers mountain stels 26">
+              <a href="images/shop_cards/STELS/2podves/FocusV26.jpg" data-lightbox="images">
+                <img src="images/shop_cards/STELS/2podves/FocusV26.jpg" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">STELS Focus V 26</div>
+              <div class="catalog-item__descr">Двухподвесной велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">18 400 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <!--Black Aqua-->
+            <div class="catalog-item" data-filter="aqua teenagers road woman 20">
+              <a href="images/shop_cards/black_aqua/BLACKAQUACITY1221V20.png" data-lightbox="images">
+                <img src="images/shop_cards/black_aqua/BLACKAQUACITY1221V20.png" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                Black Aqua CITY 1221 V 20
+              </div>
+              <div class="catalog-item__descr">Горный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">14 000 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="aqua teenagers men mountain 20">
+              <a href="images/shop_cards/black_aqua/BLACKAQUACross1201V20.png" data-lightbox="images">
+                <img src="images/shop_cards/black_aqua/BLACKAQUACross1201V20.png" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                Black Aqua Cross 1201 V 20
+              </div>
+              <div class="catalog-item__descr">Горный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">14 000 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="aqua mountain men 29">
+              <a href="images/shop_cards/black_aqua/BLACKAQUACross1981Dmatt29.png" data-lightbox="images">
+                <img src="images/shop_cards/black_aqua/BLACKAQUACross1981Dmatt29.png" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                Black Aqua Cross 1981 D matt 29
+              </div>
+              <div class="catalog-item__descr">Горный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">19 500 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="aqua mountain men 27">
+              <a href="images/shop_cards/black_aqua/BLACKAQUACross2781Dmatt.png" data-lightbox="images">
+                <img src="images/shop_cards/black_aqua/BLACKAQUACross2781Dmatt.png" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                Black Aqua Cross 2781 D matt 27.5
+              </div>
+              <div class="catalog-item__descr">Горный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">22 000 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="aqua mountain men 27">
+              <a href="images/shop_cards/black_aqua/BLACK-AQUA-Cross-2782-D-matt-27,5-полуфетбайк.jpg"
+                data-lightbox="images">
+                <img src="images/shop_cards/black_aqua/BLACK-AQUA-Cross-2782-D-matt-27,5-полуфетбайк.jpg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                Black Aqua Cross 2782 D полуфетбайк
+              </div>
+              <div class="catalog-item__descr">Горный - Полуфетбайк</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">26 000 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="aqua mountain men 27">
+              <a href="images/shop_cards/black_aqua/BLACKAQUACross2782Dmatt27,5.jpg" data-lightbox="images">
+                <img src="images/shop_cards/black_aqua/BLACKAQUACross2782Dmatt27,5.jpg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                Black Aqua Cross 2782 D matt 27.5
+              </div>
+              <div class="catalog-item__descr">Горный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">23 300 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="aqua mountain men 29">
+              <a href="images/shop_cards/black_aqua/BLACKAQUACross2981Dmatt29.png" data-lightbox="images">
+                <img src="images/shop_cards/black_aqua/BLACKAQUACross2981Dmatt29.png" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                Black Aqua Cross 2981 D matt 29
+              </div>
+              <div class="catalog-item__descr">Горный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">23 500 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="aqua mountain men 29">
+              <a href="images/shop_cards/black_aqua/BLACKAQUACross2991Dmatt29.jpg" data-lightbox="images">
+                <img src="images/shop_cards/black_aqua/BLACKAQUACross2991Dmatt29.jpg" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                Black Aqua Cross 2991 D matt 29
+              </div>
+              <div class="catalog-item__descr">Горный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">27 000 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="aqua men road teenagers 20">
+              <a href="images/shop_cards/black_aqua/BLACKAQUAJump1.020BMX.png" data-lightbox="images">
+                <img src="images/shop_cards/black_aqua/BLACKAQUAJump1.020BMX.png" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                Black Aqua Jump 1.0 20 BMX
+              </div>
+              <div class="catalog-item__descr">BMX для езды и трюков</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">16 000 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <!--MaxxPro-->
+            <div class="catalog-item" data-filter="maxxpro men mountain 26">
+              <a href="images/shop_cards/maxxpro/Marafon26N2609-4.jpg" data-lightbox="images">
+                <img src="images/shop_cards/maxxpro/Marafon26N2609-4.jpg" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">MaxxPro Marafon 26</div>
+              <div class="catalog-item__descr">Горный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">17 000 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="maxxpro men mountain teenagers 24">
+              <a href="images/shop_cards/maxxpro/marafon24.jpg" data-lightbox="images">
+                <img src="images/shop_cards/maxxpro/marafon24.jpg" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">MaxxPro Marafon 24</div>
+              <div class="catalog-item__descr">Горный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">16 900 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="maxxpro men mountain 29">
+              <a href="images/shop_cards/maxxpro/MAXXPRO_Hard_29_Elite.png" data-lightbox="images">
+                <img src="images/shop_cards/maxxpro/MAXXPRO_Hard_29_Elite.png" alt="veliki"
+                  class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">
+                MaxxPro HARD 29 Elite
+              </div>
+              <div class="catalog-item__descr">Горный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">20 500 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="maxxpro men mountain 29">
+              <a href="images/shop_cards/maxxpro/HARD29.jpg" data-lightbox="images">
+                <img src="images/shop_cards/maxxpro/HARD29.jpg" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">MaxxPro HARD 29</div>
+              <div class="catalog-item__descr">Горный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">17 500 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="maxxpro men mountain 26">
+              <a href="images/shop_cards/maxxpro/MAXXPROFATX26PRO.jpg" data-lightbox="images">
+                <img src="images/shop_cards/maxxpro/MAXXPROFATX26PRO.jpg" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">MaxxPro FAT X26 PRO</div>
+              <div class="catalog-item__descr">Горный Фетбайк</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">23 500 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="maxxpro men mountain 26">
+              <a href="images/shop_cards/maxxpro/MAXXPROFATX26PRO.jpg" data-lightbox="images">
+                <img src="images/shop_cards/maxxpro/MAXXPROFATX26PRO.jpg" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">MaxxPro FAT X26 PRO</div>
+              <div class="catalog-item__descr">Горный Фетбайк</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">18 000 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="maxxpro men mountain 27">
+              <a href="images/shop_cards/maxxpro/mirage1.jpg" data-lightbox="images">
+                <img src="images/shop_cards/maxxpro/mirage1.jpg" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">MaxxPro Mirage 27.5</div>
+              <div class="catalog-item__descr">Горный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">18 000 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="catalog-item" data-filter="maxxpro road men 28">
+              <a href="images/shop_cards/maxxpro/onix1.jpg" data-lightbox="images">
+                <img src="images/shop_cards/maxxpro/onix1.jpg" alt="veliki" class="catalog-item__img" /></a>
+              <div class="catalog-item__subtitle">MaxxPro ONIX 870</div>
+              <div class="catalog-item__descr">Горный велосипед</div>
+              <hr />
+
+              <div class="catalog-item__footer">
+                <div class="catalog-item__prices">
+                  <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                  <div class="catalog-item__price">11 500 руб.</div>
+                </div>
+                <button class="button button_mini">КУПИТЬ</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footblock">
+        <div class="footblock__call">
+          <span>Для приема заказов</span>
+          <a href="tel:+79066739796">8-906-673-97-96</a>
+          <a href="tel:+79507719009">8-950-771-90-09</a>
+        </div>
+        <div class="footblock__mail">
+          <a href="mailto:info@artsport-136.ru">E-mail: info@artsport-136.ru</a>
+        </div>
+
+        <div class="footblock__descr">
+          ©2022.<span>ARTSPORT</span>
+          <p>
+            Обращаем Ваше внимание на то, что данный интернет-сайт носит
+            исключительно информационный характер и ни при каких условиях не
+            является публичной офертой, определяемой положениями ч. 2 ст. 437
+            Гражданского кодекса Российской Федерации. В соответствии с п.4
+            Постановления Правительства РФ от 27.09.2007 N 612 (ред. от
+            30.11.2019) "Об утверждении Правил продажи товаров дистанционным
+            способом".
+          </p>
+          <a href="https://h4shima.github.io/Hashima-links/" target="_blank">Дизайн и разработка сайтов - Hashima</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="overlay">
+    <div class="modal" id="consultation">
+      <div class="modal__close">&times;</div>
+      <div class="modal__subtitle">Просто заполните форму заявки</div>
+      <div class="modal__descr">и мы перезвоним вам в течении 10 минут</div>
+      <form class="feed-form feed-form_mobile feed-form_mt25">
+        <input name="name" required placeholder="Ваше имя" type="text" />
+        <input name="phone" required placeholder="Ваш телефон" type="phone" />
+        <input name="email" required placeholder="Ваш E-mail" type="email" />
+
+        <button class="button button_submit button_mobile">
+          Закать консультацию
+        </button>
+      </form>
+    </div>
+
+    <div class="modal" id="order">
+      <div class="modal__close">&times;</div>
+      <div class="modal__subtitle">Ваш заказ:</div>
+      <div class="modal__descr">Пульсометр Polar FT1</div>
+      <form class="feed-form feed-form_mobile feed-form_mt25">
+        <input name="name" required placeholder="Ваше имя" type="text" />
+        <input name="phone" required placeholder="Ваш телефон" type="phone" />
+        <input name="email" required placeholder="Ваш E-mail" type="email" />
+
+        <button class="button button_submit button_mobile">
+          Закать консультацию
+        </button>
+      </form>
+    </div>
+
+    <div class="modal modal_mini" id="thanks">
+      <div class="modal__close">&times;</div>
+      <div class="modal__subtitle">Спасибо за вашу заявку!</div>
+      <div class="modal__descr">
+        Наш менеджер свяжется с вами в ближайшее время!
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/jquery.maskedinput.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/lightbox-plus-jquery.js"></script>
+  <script>
+    lightbox.option({
+      showImageNumberLabel: false,
+      wrapAround: true,
+    });
+  </script>
+  <script src="js/scroll.js"></script>
+  <script src="js/filter.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
