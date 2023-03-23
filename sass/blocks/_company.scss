@@ -1,0 +1,33 @@
+.company {
+	min-height: 810px;
+
+	.container-fluid {
+		padding: 0;
+		margin: 0;
+	}
+
+	img {
+		height: 810px;
+		object-fit: cover;
+		display: block;
+		width: 100%;
+	}
+}
+
+@media (max-width: 991.98px) {
+	.company {
+		min-height: 0px;
+		img {
+			height: fit-content;
+		}
+	}
+}
+
+@media (max-width: 767.98px) {
+	.company {
+		min-height: 0px;
+		img {
+			height: fit-content;
+		}
+	}
+}

@@ -1,0 +1,107 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/font';
+@import 'libs/slick';
+@import 'libs/animate';
+
+@import 'base/variables';
+@import 'base/animations';
+
+* {
+	font-family: 'Museo Sans Cyrl', sans-serif;
+	outline: none;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	flex-grow: 1;
+}
+
+.wrapper {
+	position: relative;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+
+	&_video {
+		position: static;
+	}
+}
+
+@import "main_page/about";
+@import "main_page/footer";
+@import "main_page/home";
+@import "main_page/info";
+@import "main_page/pochemu";
+@import "main_page/profit";
+
+@import "blocks/company";
+@import "blocks/brands";
+@import "blocks/header";
+@import "blocks/information";
+@import "blocks/we";
+@import "blocks/contacts";
+@import "blocks/write";
+@import "blocks/sale";
+@import "blocks/video";
+@import "blocks/list";
+@import 'blocks/promo';
+@import 'blocks/buttons';
+@import 'blocks/titles';
+@import 'blocks/consultation';
+@import 'blocks/forms';
+@import 'blocks/catalog';
+@import 'blocks/feed';
+@import 'blocks/modal';
+@import 'blocks/search';
+@import 'blocks/single';
+@import 'blocks/upper';
+@import 'blocks/burger';
+
+
+
+@keyframes anim {
+	0% {
+		border-top: 2px solid #fceedd;
+	}
+
+	25% {
+		border-top: 2px solid #f3c796;
+	}
+
+	50% {
+		border-top: 2px solid #f7931e;
+	}
+
+	75% {
+		border-top: 2px solid #cea97f;
+	}
+
+	100% {
+		border-top: 2px solid #ebebeb;
+	}
+}
