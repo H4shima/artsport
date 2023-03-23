@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>ARTSPORT</title>
+  <link rel="icon" href="icons/bike_logo.svg">
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+  <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
+  <link rel="stylesheet" href="css/lightbox.css">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div id="toTop">
+    <img src="images/icons/icon-up.png" alt="top-arrow">
+  </div>
+  <section class="promo">
+    <div class="container">
+      <header class="header">
+        <a href="index.html" class="header__logo"> ARTSPORT </a>
+        <div class="header__official">
+          <a href="company.html">О компании</a>
+        </div>
+        <div class="header__official">
+          <a href="veliki.html">Каталог</a>
+        </div>
+        <div class="header__official">
+          <a href="sale.html">Акции</a>
+        </div>
+        <div class="header__official">
+          <a href="contacts.html">Контакты</a>
+        </div>
+        <div class="header__contacts">
+          <!-- <a href="tel:+74999228974" class="header__phone heahone_none">+7 (499) 922-89-74</a> -->
+          <button data-modal="consultation" class="button">
+            заказать звонок
+          </button>
+        </div>
+      </header>
+    </div>
+  </section>
+  <nav>
+    <div class="navbar">
+      <div class="container nav-container">
+        <input class="checkbox" type="checkbox" />
+        <div class="hamburger-lines">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>
+        <div class="logo">
+          <a href="index.html">ARTSPORT</a>
+        </div>
+        <ul class="menu-items">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="company.html">О компании</a></li>
+          <li><a href="veliki.html">Каталог</a></li>
+          <li><a href="sale.html">Акции</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="catalog">
+    <div class="container">
+      <div class="catalog__wrapper">
+        <button class="button button_filter"><span>Фильтры</span></button>
+        <div id="filters" class="catalog__filters">
+          <h3>Виды самокатов</h3>
+          <ul class="catalog__filters-menu">
+            <li>
+              <input type="checkbox" id="electro" name="check" value="electro" class="category">
+              <label for="electro">Электросамокаты</label>
+            </li>
+            <li class="sublist">
+              <input type="checkbox" id="kugoo" name="check" value="kugoo" class="category category_sub">
+              <label for="kugoo">Kugoo</label>
+            </li>
+            <li class="sublist">
+              <input type="checkbox" id="cityCoco" name="check" value="cityCoco" class="category category_sub">
+              <label for="cityCoco">CityCoco</label>
+            </li>
+            <li>
+              <input type="checkbox" id="child" name="check" value="child" class="category">
+              <label for="child">Детские</label>
+            </li>
+            <li>
+              <input type="checkbox" id="trick" name="check" value="trick" class="category">
+              <label for="trick">Трюковые</label>
+            </li>
+            <li>
+              <a href="veliki.html">Велосипеды</a>
+            </li>
+          </ul>
+          <input class="catalog__filters-search" type="text" id="search" placeholder="Поиск...">
+        </div>
+
+        <div class="catalog__content">
+          <div class="catalog-item" data-filter="electro kugoo">
+            <a href="catalog/samokati/electro/kugoo-c1pro.html">
+              <img src="images/shop_cards/esamokat/KUGOOC1PRO-min.png" alt="samokat" class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">KUGOO C1 PRO</div>
+            <div class="catalog-item__descr">
+              Удобный электросамокат с сиденьем и мощной батарей
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">6 990 руб.</div> -->
+                <div class="catalog-item__price">50 500 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+          <div class="catalog-item" data-filter="electro kugoo">
+            <a href="catalog/samokati/electro/kugoo-s1.html">
+              <img src="images/shop_cards/esamokat/KUGOOS1-min.png" alt="samokat" class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">KUGOO S1</div>
+            <div class="catalog-item__descr">
+              Электросамокат для быстрого перемещения по городу
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                <div class="catalog-item__price">18 500 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+          <div class="catalog-item" data-filter="electro kugoo">
+            <a href="catalog/samokati/electro/kugoo-s1-plus.html">
+              <img src="images/shop_cards/esamokat/KUGOOS1PLUS-min.png" alt="samokat" class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">KUGOO S1 PLUS</div>
+            <div class="catalog-item__descr">
+              Электросамокат для быстрого перемещения по городу
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">4 750 руб.</div> -->
+                <div class="catalog-item__price">25 200 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+          <div class="catalog-item" data-filter="electro kugoo">
+            <a href="catalog/samokati/electro/kugoo-s3.html">
+              <img src="images/shop_cards/esamokat/KUGOOS3-min.png" alt="samokat" class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">KUGOO S3</div>
+            <div class="catalog-item__descr">
+              Электросамокат для быстрого перемещения по городу
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">6 990 руб.</div> -->
+                <div class="catalog-item__price">22 100 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+          <div class="catalog-item" data-filter="electro kugoo">
+            <a href="catalog/samokati/electro/kugoo-m2.html">
+              <img src="images/shop_cards/esamokat/KUGOOM2-min.png" alt="samokat" class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">KUGOO M2</div>
+            <div class="catalog-item__descr">
+              Электросамокат для быстрого перемещения по городу
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">4 750 руб.</div> -->
+                <div class="catalog-item__price">27 200 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+          <div class="catalog-item" data-filter="electro kugoo">
+            <a href="catalog/samokati/electro/kugoo-m2-pro.html">
+              <img src="images/shop_cards/esamokat/KUGOOM2PRO-min.png" alt="samokat" class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">KUGOO M2 PRO</div>
+            <div class="catalog-item__descr">
+              Электросамокат для быстрого перемещения по городу
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                <div class="catalog-item__price">32 300 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+          <div class="catalog-item" data-filter="electro kugoo">
+            <a href="catalog/samokati/electro/kugoo-es3.html">
+              <img src="images/shop_cards/esamokat/KUGOOES3-min.png" alt="samokat" class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">KUGOO ES3</div>
+            <div class="catalog-item__descr">
+              Электросамокат для быстрого перемещения по городу
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                <div class="catalog-item__price">41 000 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+          <div class="catalog-item" data-filter="electro kugoo">
+            <a href="catalog/samokati/electro/kugoo-g1.html">
+              <img src="images/shop_cards/esamokat/KUGOOG1-min.png" alt="samokat" class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">KUGOO G1</div>
+            <div class="catalog-item__descr">
+              Электросамокат для быстрого перемещения по городу
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                <div class="catalog-item__price">82 000 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+          <div class="catalog-item" data-filter="electro kugoo">
+            <a href="catalog/samokati/electro/kugoo-g2-pro.html">
+              <img src="images/shop_cards/esamokat/KUGOOG2PRO-min.png" alt="samokat" class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">KUGOO G2 PRO</div>
+            <div class="catalog-item__descr">
+              Электросамокат для быстрого перемещения по городу
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                <div class="catalog-item__price">69 000 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+          <div class="catalog-item" data-filter="electro kugoo">
+            <a href="catalog/samokati/electro/kugoo-max-speed.html">
+              <img src="images/shop_cards/esamokat/KUGOOGMAX-min.png" alt="samokat" class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">KUGOO MAX SPEED</div>
+            <div class="catalog-item__descr">
+              Электросамокат для быстрого перемещения по городу
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                <div class="catalog-item__price">35 600 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+          <div class="catalog-item" data-filter="electro kugoo">
+            <a href="catalog/samokati/electro/kugoo-m4.html">
+              <img src="images/shop_cards/esamokat/KUGOOM4-min.png" alt="samokat" class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">KUGOO M4</div>
+            <div class="catalog-item__descr">
+              Электросамокат для быстрого перемещения по городу
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                <div class="catalog-item__price">35 200 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+          <div class="catalog-item" data-filter="electro kugoo">
+            <a href="catalog/samokati/electro/kugoo-m4-pro-13.5.html">
+              <img src="images/shop_cards/esamokat/KUGOOM4PRO13AH-min.png" alt="samokat" class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">KUGOO M4 PRO 13AH</div>
+            <div class="catalog-item__descr">
+              Электросамокат для быстрого перемещения по городу
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                <div class="catalog-item__price">42 100 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+          <div class="catalog-item" data-filter="electro kugoo">
+            <a href="catalog/samokati/electro/kugoo-m4-pro-18.html">
+              <img src="images/shop_cards/esamokat/KUGOOM4PRO-min.png" alt="samokat" class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">KUGOO M4 PRO 18AH</div>
+            <div class="catalog-item__descr">
+              Электросамокат для быстрого перемещения по городу
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">6 990 руб.</div> -->
+                <div class="catalog-item__price">46 000 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+          <div class="catalog-item" data-filter="electro kugoo">
+            <a href="catalog/samokati/electro/kugoo-m5.html">
+              <img src="images/shop_cards/esamokat/KUGOOM5-min.png" alt="samokat" class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">KUGOO M5</div>
+            <div class="catalog-item__descr">
+              Электросамокат для быстрого перемещения по городу
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                <div class="catalog-item__price">62 000 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+          <div class="catalog-item" data-filter="electro kugoo">
+            <a href="catalog/samokati/electro/kugoo-g-max.html">
+              <img src="images/shop_cards/esamokat/KUGOOGMAX-min.png" alt="samokat" class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">KUGOO G-MAX</div>
+            <div class="catalog-item__descr">
+              Электросамокат для быстрого перемещения по городу
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">4 750 руб.</div> -->
+                <div class="catalog-item__price">42 700 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+          <div class="catalog-item" data-filter="electro kugoo">
+            <a href="catalog/samokati/electro/kugoo-x1.html">
+              <img src="images/shop_cards/esamokat/KUGOOX1.png" alt="samokat" class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">KUGOO X1</div>
+            <div class="catalog-item__descr">
+              Электросамокат для быстрого перемещения по городу
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">6 990 руб.</div> -->
+                <div class="catalog-item__price">40 200 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+          <div class="catalog-item" data-filter="electro kugoo">
+            <a href="catalog/samokati/electro/kugoo-hx.html">
+              <img src="images/shop_cards/esamokat/KUGOOHX-min.png" alt="samokat" class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">KUGOO HX</div>
+            <div class="catalog-item__descr">
+              Электросамокат для быстрого перемещения по городу
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">4 750 руб.</div> -->
+                <div class="catalog-item__price">32 400 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+          <div class="catalog-item" data-filter="electro kugoo">
+            <a href="catalog/samokati/electro/kugoo-hx-pro.html">
+              <img src="images/shop_cards/esamokat/KUGOOHXPRO-min.png" alt="samokat" class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">KUGOO HX PRO</div>
+            <div class="catalog-item__descr">
+              Электросамокат для быстрого перемещения по городу
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                <div class="catalog-item__price">38 300 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+          <div class="catalog-item" data-filter="electro cityCoco">
+            <a href="catalog/samokati/electro/city-coco-gt-x2.html">
+              <img src="images/shop_cards/esamokat/CITYCOCOGTX2-min.png" alt="samokat" class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">CityCoco GT X2</div>
+            <div class="catalog-item__descr">
+              Электросамокат для быстрого перемещения по городу
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                <div class="catalog-item__price">56 700 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+          <div class="catalog-item" data-filter="electro cityCoco">
+            <a href="catalog/samokati/electro/city-coco-gt-x2-pro.html">
+              <img src="images/shop_cards/esamokat/CitycocoGTX2Pro-min.png" alt="samokat" class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">CityCoco GT X2 Pro</div>
+            <div class="catalog-item__descr">
+              Электросамокат для быстрого перемещения по городу
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                <div class="catalog-item__price">56 700 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+          <div class="catalog-item" data-filter="electro cityCoco">
+            <a href="catalog/samokati/electro/city-coco-gt-m2.html">
+              <img src="images/shop_cards/esamokat/CitycocoGTM2PRO4000W-min.png" alt="samokat"
+                class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">CityCoco GT M2 PRO</div>
+            <div class="catalog-item__descr">
+              Электросамокат для быстрого перемещения по городу
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                <div class="catalog-item__price">113 000 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+
+          <!-- child -->
+
+          <div class="catalog-item" data-filter="child">
+            <a href="catalog/samokati/prostie/comfort-180r.html"> <img
+                src="images/shop_cards/samokat/Comfort180R.jpg" alt="samokat" class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">
+              <h4>COMFORT 180R</h4>
+            </div>
+            <div class="catalog-item__descr">
+              <p>Детский самокат</p>
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">6 990 руб.</div> -->
+                <div class="catalog-item__price">4 800 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+          <div class="catalog-item" data-filter="child">
+            <a href="catalog/samokati/prostie/comfort-145r.html"> <img
+                src="images/shop_cards/samokat/TTComfort145R.jpg" alt="samokat" class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">COMFORT 145R</div>
+            <div class="catalog-item__descr">
+              Детский самокат
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                <div class="catalog-item__price">3 900 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+          <div class="catalog-item" data-filter="child">
+            <a href="catalog/samokati/prostie/comfort-145r-lux.html"> <img
+                src="images/shop_cards/samokat/TECHTEAMCOMFORT145LUX.jpg" alt="samokat" class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">COMFORT 145 LUX</div>
+            <div class="catalog-item__descr">
+              Детский самокат
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">4 750 руб.</div> -->
+                <div class="catalog-item__price">4 200 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+          <div class="catalog-item" data-filter="child">
+            <a href="catalog/samokati/prostie/comfort-delta.html"> <img
+                src="images/shop_cards/samokat/TECHTEAMCOMFORTDelta.jpg" alt="samokat" class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">DELTA</div>
+            <div class="catalog-item__descr">
+              Детский самокат
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">6 990 руб.</div> -->
+                <div class="catalog-item__price">4 900 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+          <div class="catalog-item" data-filter="child">
+            <a href="catalog/samokati/prostie/comfort-ram.html"> <img
+                src="images/shop_cards/samokat/TechTeamRAM.jpg" alt="samokat" class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">RAM</div>
+            <div class="catalog-item__descr">
+              Детский самокат
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">4 750 руб.</div> -->
+                <div class="catalog-item__price">6 400 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+          <div class="catalog-item" data-filter="child">
+            <a href="catalog/samokati/prostie/comfort-city-scooter.html"> <img
+                src="images/shop_cards/samokat/TechteamCityScooterDiskBrake2022.jpg" alt="samokat"
+                class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">CITY SCOOTER</div>
+            <div class="catalog-item__descr">
+              Детский самокат
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                <div class="catalog-item__price">5 100 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+          <div class="catalog-item" data-filter="child">
+            <a href="catalog/samokati/prostie/comfort-sport-210r.html"> <img
+                src="images/shop_cards/samokat/Sport210R.jpg" alt="samokat" class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">SPORT 210R</div>
+            <div class="catalog-item__descr">
+              Детский самокат
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">6 990 руб.</div> -->
+                <div class="catalog-item__price">6 300 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+          <div class="catalog-item" data-filter="child">
+            <a href="catalog/samokati/prostie/comfort-230r.html"> <img
+                src="images/shop_cards/samokat/Comfort230R.jpg" alt="samokat" class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">COMFORT 230R</div>
+            <div class="catalog-item__descr">
+              Детский самокат
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                <div class="catalog-item__price">5 700 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+          <div class="catalog-item" data-filter="child">
+            <a href="catalog/samokati/prostie/comfort-tiger-plus.html"> <img
+                src="images/shop_cards/samokat/Tigerplus.jpg" alt="samokat" class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">TIGER PLUS</div>
+            <div class="catalog-item__descr">
+              Детский самокат
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">4 750 руб.</div> -->
+                <div class="catalog-item__price">3 500 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+          <div class="catalog-item" data-filter="child">
+            <a href="catalog/samokati/prostie/comfort-lambo.html"> <img
+                src="images/shop_cards/samokat/Lambo.jpg" alt="samokat" class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">LAMBO</div>
+            <div class="catalog-item__descr">
+              Детский самокат
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">6 990 руб.</div> -->
+                <div class="catalog-item__price">2 900 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+          <div class="catalog-item" data-filter="child">
+            <a href="catalog/samokati/prostie/comfort-surf-girl.html"> <img
+                src="images/shop_cards/samokat/SurfGirl2019d.jpg" alt="samokat" class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">SURF GIRL</div>
+            <div class="catalog-item__descr">
+              Детский самокат
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">4 750 руб.</div> -->
+                <div class="catalog-item__price">3 900 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+          <div class="catalog-item" data-filter="child">
+            <a href="catalog/samokati/prostie/comfort-surf-boy.html"> <img
+                src="images/shop_cards/samokat/SurfBoy.jpg" alt="samokat" class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">SURF BOY</div>
+            <div class="catalog-item__descr">
+              Детский самокат
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                <div class="catalog-item__price">3 900 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+          <div class="catalog-item" data-filter="trick">
+            <a href="catalog/samokati/prostie/duker-101.html"> <img
+                src="images/shop_cards/samokat/Duker101.jpg" alt="samokat" class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">DUKER 101</div>
+            <div class="catalog-item__descr">
+              Трюковой самокат
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">4 750 руб.</div> -->
+                <div class="catalog-item__price">4 900 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+          <div class="catalog-item" data-filter="trick">
+            <a href="catalog/samokati/prostie/duker-202.html"> <img
+                src="images/shop_cards/samokat/Duker202.jpg" alt="samokat" class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">DUKER 202</div>
+            <div class="catalog-item__descr">
+              Трюковой самокат
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">6 990 руб.</div> -->
+                <div class="catalog-item__price">5 300 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+          <div class="catalog-item" data-filter="trick">
+            <a href="catalog/samokati/prostie/duker-303.html"> <img
+                src="images/shop_cards/samokat/Duker303.jpg" alt="samokat" class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">DUKER 303</div>
+            <div class="catalog-item__descr">
+              Трюковой самокат
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">6 990 руб.</div> -->
+                <div class="catalog-item__price">6 600 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+          <div class="catalog-item" data-filter="trick">
+            <a href="catalog/samokati/prostie/duker-404.html"> <img
+                src="images/shop_cards/samokat/Duker404.jpg" alt="samokat" class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">DUKER 404</div>
+            <div class="catalog-item__descr">
+              Трюковой самокат
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                <div class="catalog-item__price">7 300 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+          <div class="catalog-item" data-filter="child">
+            <a href="catalog/samokati/prostie/comfort-city-scooter-brake.html"> <img
+                src="images/shop_cards/samokat/TechteamCityScooterDiskBrake2022.jpg" alt="samokat"
+                class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">CITY SCOOTER BRAKE</div>
+            <div class="catalog-item__descr">
+              Детский самокат
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">4 750 руб.</div> -->
+                <div class="catalog-item__price">5 500 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+          <div class="catalog-item" data-filter="child">
+            <a href="catalog/samokati/prostie/comfort-210r.html"> <img
+                src="images/shop_cards/samokat/Comfort210R.jpg" alt="samokat" class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">COMFORT 210R</div>
+            <div class="catalog-item__descr">
+              Детский самокат
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                <div class="catalog-item__price">5 200 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+          <div class="catalog-item" data-filter="child">
+            <a href="catalog/samokati/prostie/comfort-sport-250r.html"> <img
+                src="images/shop_cards/samokat/Sport250R.jpg" alt="samokat" class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">SPORT 250R</div>
+            <div class="catalog-item__descr">
+              Детский самокат
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                <div class="catalog-item__price">7 400 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+          <div class="catalog-item" data-filter="child">
+            <a href="catalog/samokati/prostie/comfort-sport-230r.html"> <img
+                src="images/shop_cards/samokat/Sport230R.jpg" alt="samokat" class="catalog-item__img" /></a>
+            <div class="catalog-item__subtitle">SPORT 230R</div>
+            <div class="catalog-item__descr">
+              Детский самокат
+            </div>
+            <hr />
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <!-- <div class="catalog-item__old-price">7 390 руб.</div> -->
+                <div class="catalog-item__price">7 100 руб.</div>
+              </div>
+              <button class="button button_mini">КУПИТЬ</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footblock">
+        <div class="footblock__call">
+          <span>Для приема заказов</span>
+          <a href="tel:+79066739796">8-906-673-97-96</a>
+          <a href="tel:+79507719009">8-950-771-90-09</a>
+        </div>
+        <div class="footblock__mail">
+          <a href="mailto:info@artsport-136.ru">E-mail: info@artsport-136.ru</a>
+        </div>
+
+        <div class="footblock__descr">
+          ©2022.<span>ARTSPORT</span>
+          <p>
+            Обращаем Ваше внимание на то, что данный интернет-сайт носит
+            исключительно информационный характер и ни при каких условиях не
+            является публичной офертой, определяемой положениями ч. 2 ст. 437
+            Гражданского кодекса Российской Федерации. В соответствии с п.4
+            Постановления Правительства РФ от 27.09.2007 N 612 (ред. от
+            30.11.2019) "Об утверждении Правил продажи товаров дистанционным
+            способом".
+          </p>
+          <a href="https://h4shima.github.io/Hashima-links/" target="_blank">Дизайн и разработка сайтов - Hashima</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="overlay">
+    <div class="modal" id="consultation">
+      <div class="modal__close">&times;</div>
+      <div class="modal__subtitle">Просто заполните форму заявки</div>
+      <div class="modal__descr">и мы перезвоним вам в течении 10 минут</div>
+      <form class="feed-form feed-form_mobile feed-form_mt25">
+        <input name="name" required placeholder="Ваше имя" type="text" />
+        <input name="phone" required placeholder="Ваш телефон" type="phone" />
+        <input name="email" required placeholder="Ваш E-mail" type="email" />
+
+        <button class="button button_submit button_mobile">
+          Закать консультацию
+        </button>
+      </form>
+    </div>
+
+    <div class="modal" id="order">
+      <div class="modal__close">&times;</div>
+      <div class="modal__subtitle">Ваш заказ:</div>
+      <div class="modal__descr">Пульсометр Polar FT1</div>
+      <form class="feed-form feed-form_mobile feed-form_mt25">
+        <input name="name" required placeholder="Ваше имя" type="text" />
+        <input name="phone" required placeholder="Ваш телефон" type="phone" />
+        <input name="email" required placeholder="Ваш E-mail" type="email" />
+
+        <button class="button button_submit button_mobile">
+          Закать консультацию
+        </button>
+      </form>
+    </div>
+
+    <div class="modal modal_mini" id="thanks">
+      <div class="modal__close">&times;</div>
+      <div class="modal__subtitle">Спасибо за вашу заявку!</div>
+      <div class="modal__descr">
+        Наш менеджер свяжется с вами в ближайшее время!
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/jquery.maskedinput.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/scroll.js"></script>
+  <script src="js/filter.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
